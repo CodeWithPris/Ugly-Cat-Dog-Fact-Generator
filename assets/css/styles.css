@@ -1,0 +1,74 @@
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 18px;
+    color: #233c44;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #fdfcf5;
+    display: flex;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 890px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    border: 5px dashed #233c44;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#cat-pic {
+    max-width: 100%;
+    max-height: 300px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cat-fact {
+    min-height: 40px;
+    margin-bottom: 10px;
+}
+
+.cat-button-jail {
+    padding: 1%;
+}
+
+.dog-button-jail {
+    padding: 1%;
+}
+
+button {
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 12px 20px;
+    transition: all .1s linear;
+}
+
+.cat-button {
+    background: #c49980;
+    box-shadow: 0 5px 0 #8d4e61;
+}
+
+.dog-button {
+    background: #80c0c4;
+    box-shadow: 0 5px 0 #4e5a8d;
+}
+
+button:active {
+    box-shadow: 0 2px 0 #8d4e61;
+    transform: translateY(3px);
+}

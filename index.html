@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ugly Cat & Dog Generator</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <main>
+        <h1>Welcome to the Ugly Cat & Dog Fact Generator!!!</h1>
+        <h2 id="cat-title">Random cat fact:</h2>
+        <img id="cat-pic">
+        <p id="cat-fact"></p>
+        <div class="cat-button-jail">
+            <button class="cat-button" onclick="getCatFact()">Get Cat Fact</button>
+            <audio id="cat-audio" preload="auto"></audio>
+        </div>
+        <div class="dog-button-jail">
+            <button class="dog-button" onclick="switchAnimal()">Get Dog Fact</button>
+            <audio id="dog-audio" preload="auto"></audio>
+        </div>
+        <span>Warning: These buttons play audio!</span>
+    </main>
+    
+<script src="assets/main.js"></script>
+</body>
+</html>
