@@ -23,7 +23,7 @@ Coming soon.
 Coming soon.
 
 ## Project Progress:
-- Currently create frameworks for website using a template created by [HTML5 UP!](https://html5up.net/). I'd like the site to look similar to the template I'm using once I begin to code by scratch.
+Coming soon.
 
 ## Challenges
 Coming soon.
