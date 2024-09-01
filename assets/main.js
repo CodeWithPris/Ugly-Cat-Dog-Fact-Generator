@@ -17,7 +17,6 @@ function getCatFact() {
     document.querySelector("button").textContent = buttonTexts[Math.floor(Math.random() * buttonTexts.length)];
 
     playRandomCatAudio();
-    playRandomDogAudio();
 }
 
 const catAudioClips = [
@@ -34,56 +33,55 @@ function playRandomCatAudio() {
     audioElement.play();
 }
 
-function getDogFact() {
-    fetch('https://dog-facts-api.herokuapp.com/api/v1/resources/dogs/?number=1')
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById('dog-fact').textContent = data.data[0];
-        })
-        .catch(error => console.error('Ruh-roh! Error fetching the dog fact:', error));
+// function getDogFact() {
+//     fetch('https://dog-facts-api.herokuapp.com/api/v1/resources/dogs/?number=1')
+//         .then(response => response.json())
+//         .then(data => {
+//             document.getElementById('dog-fact').textContent = data.data[0];
+//         })
+//         .catch(error => console.error('Ruh-roh! Error fetching the dog fact:', error));
     
-    fetch('api.thedogapi.com')
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById('dog-pic').src = data[0].url;
-        })
-        .catch(error => console.error('Ruh-roh! Error fetching the dog picture:', error));
+//     fetch('api.thedogapi.com')
+//         .then(response => response.json())
+//         .then(data => {
+//             document.getElementById('dog-pic').src = data[0].url;
+//         })
+//         .catch(error => console.error('Ruh-roh! Error fetching the dog picture:', error));
 
-    const buttonTexts = ["Show Me a Cat!", "More Cats, Please!", "Next Cat!", "Give Me a Cat!", "Here, kitty-kitty!", "Meow?", "Meowza!"];
-    document.querySelector("button").textContent = buttonTexts[Math.floor(Math.random() * buttonTexts.length)];
+//     const buttonTexts = ["Show Me a Cat!", "More Cats, Please!", "Next Cat!", "Give Me a Cat!", "Here, kitty-kitty!", "Meow?", "Meowza!"];
+//     document.querySelector("button").textContent = buttonTexts[Math.floor(Math.random() * buttonTexts.length)];
 
-    playRandomCatAudio();
-    playRandomDogAudio();
-}
+//     playRandomDogAudio();
+// }
 
-const dogAudioClips = [
-    'assets/audio/dog-bark1.mp3',
-    'assets/audio/dog-bark2.mp3',
-    'assets/audio/dog-bark3.wav'
-];
+// const dogAudioClips = [
+//     'assets/audio/dog-bark1.mp3',
+//     'assets/audio/dog-bark2.mp3',
+//     'assets/audio/dog-bark3.wav'
+// ];
 
-function playRandomDogAudio() {
-    const audioElement = document.getElementById('dog-audio');
-    const randomIndex = Math.floor(Math.random() * dogAudioClips.length);
-    const randomClip = dogAudioClips[randomIndex];
-    audioElement.src = randomClip;
-    audioElement.play();
-}
+// function playRandomDogAudio() {
+//     const audioElement = document.getElementById('dog-audio');
+//     const randomIndex = Math.floor(Math.random() * dogAudioClips.length);
+//     const randomClip = dogAudioClips[randomIndex];
+//     audioElement.src = randomClip;
+//     audioElement.play();
+// }
 
 
-function switchAnimal() {
-    const titleElement = document.getElementById('dog-title');
-    const imageElement = document.getElementById('dog-image');
-    const factElement = document.getElementById('dog-fact');
+// function switchAnimal() {
+//     const titleElement = document.getElementById('dog-title');
+//     const imageElement = document.getElementById('dog-image');
+//     const factElement = document.getElementById('dog-fact');
 
-    // Update title
-    titleElement.textContent = "Random dog fact:";
 
-    // Update fact
-    const randomFactIndex = getRandomIndex(catFacts);
-    factElement.textContent = catFacts[randomFactIndex];
+//     titleElement.textContent = "Random dog fact:";
 
-    // Update image
-    const randomImageIndex = getRandomIndex(catImages);
-    imageElement.src = catImages[randomImageIndex];
-}
+
+//     const randomFactIndex = getRandomIndex(catFacts);
+//     factElement.textContent = catFacts[randomFactIndex];
+
+
+//     const randomImageIndex = getRandomIndex(catImages);
+//     imageElement.src = catImages[randomImageIndex];
+// }
