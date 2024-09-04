@@ -1,5 +1,5 @@
 body {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: "Comic Sans MS", "Comic Sans", sans-serif;
     font-size: 18px;
     color: #233c44;
     text-align: center;
@@ -25,7 +25,7 @@ main {
     overflow: hidden;
 }
 
-#cat-pic {
+#cat-pic, #dog-pic {
     max-width: 100%;
     max-height: 300px;
     margin-top: 10px;
@@ -38,13 +38,14 @@ main {
     margin-bottom: 10px;
 }
 
-.cat-button-jail {
+.button-jail {
     padding: 1%;
 }
 
-.dog-button-jail {
-    padding: 1%;
+.hidden {
+    display: none;
 }
+
 
 button {
     border: 0;
@@ -68,7 +69,12 @@ button {
     box-shadow: 0 5px 0 #4e5a8d;
 }
 
-button:active {
+.cat-button:active {
     box-shadow: 0 2px 0 #8d4e61;
+    transform: translateY(3px);
+}
+
+.dog-button:active {
+    box-shadow: 0 2px 0 #4e5a8d;
     transform: translateY(3px);
 }
