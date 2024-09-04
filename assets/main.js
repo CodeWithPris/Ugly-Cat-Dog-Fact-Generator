@@ -74,11 +74,13 @@ function getDogFact() {
 function showCatContent() {
     document.getElementById('cat-container').classList.remove('hidden');
     document.getElementById('dog-container').classList.add('hidden');
+    
     getCatFact();
 }
 
 function showDogContent() {
-    document.getElementById('dog-container').classList.remove('hidden');content
-    document.getElementById('cat-container').classList.add('hidden');content
+    document.getElementById('dog-container').classList.remove('hidden');
+    document.getElementById('cat-container').classList.add('hidden');
+
     getDogFact();
 }
