@@ -19,9 +19,11 @@ Here is The Ugly Cat and Dog Fact Generator. It uses multiple APIs and generates
 - **Tools**: Git, GitHub, Netlify, Visual Studio Code.
 
 ## Getting Started
+View the live webpage [here](https://the-ugly-cat-and-dog-generator.netlify.app/).
+
 To try out the Ugly Cat and Dog Fact Generator locally:
 1. Clone repo
-`git clone https://github.com/percy390/ugly-cat-dog-fact-generator.git`
+`git clone https://github.com/Percy390/Ugly-Cat-Dog-Fact-Generator.git`
 2. Go to project folder
 3. Open `index.html` in your browser
 4. Play around with the buttons and enjoy random dog/cat facts!
