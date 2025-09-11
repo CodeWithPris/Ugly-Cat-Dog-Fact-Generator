@@ -1,17 +1,16 @@
 # The Ugly Cat and Dog Fact Generator
 
-![Project Status](https://img.shields.io/badge/Status-WIP-orange)
-
-## Table of Contents
-Coming soon.
-
 ## Overview
 
-Here is an ugly cat and dog fact generator. It uses four APIs and generates a random cat/dog fact and picture once the button is clicked, while also playing a noise. This was purely for fun and practice with APIs.
+Here is The Ugly Cat and Dog Fact Generator. It uses multiple APIs and generates a random cat/dog fact and picture once the button is clicked, while also playing a noise. This was purely for fun and practice with APIs.
 
 ## Goals
 
-Coming soon.
+- Have fun experimenting with multiple APIs to fetch (get it? :) ) random cat and dog facts.
+- Show dynamic images, sounds, and text on a webpage with just HTML, CSS, and JavaScript.
+- Practice DOM manipulation and handling user interactions with buttons.
+- Learn how to combine multimedia elements (images + audio) in a small and interactive project.
+- Create a quirky project for personal practice and portfolio fun.
 
 ## Technologies & Tools
 
@@ -20,16 +19,24 @@ Coming soon.
 - **Tools**: Git, GitHub, Netlify, Visual Studio Code.
 
 ## Getting Started
-Coming soon.
+To try out the Ugly Cat and Dog Fact Generator locally:
+1. Clone repo
+`git clone https://github.com/percy390/ugly-cat-dog-fact-generator.git`
+2. Go to project folder
+3. Open `index.html` in your browser
+4. Play around with the buttons and enjoy random dog/cat facts!
+
+Note: This project uses public APIs. If an API is down or changes, some facts or images may not load.
 
 ## Project Progress:
-Coming soon.
+Project has been archived since 2024, but continues to serve as a fun example of multiple APIs and multimedia elements :)
 
-## Challenges
-Coming soon.
-
-## Learnings
-Coming soon.
+## Challenges & Lessons Learned
+- Juggled multiple APIs to fetch images and text.
+- Introduced me to asynchronus Javascript via fetch and Promises
+- Improved my skills in DOM manipulation and real-time interactivity
+- Learned how to incorporate multimedia more effectively
+- Dealt with API failures via debugging
 
 ## Feedback & Contact
 Feel free to open issues or provide feedback. Suggestions are welcome! Reach out to me at:
